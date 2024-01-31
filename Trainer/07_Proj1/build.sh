@@ -1,0 +1,1 @@
+gcc -g client.c mmath.c  -I ./include/ -o prj.out
