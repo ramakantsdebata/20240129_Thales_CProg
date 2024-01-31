@@ -14,7 +14,7 @@ int main()
     scanf("%d", &deptNo);
 
     printf("Enter designationCode of the employee:");
-    scanf("%c", &designationCode);
+    scanf(" %c", &designationCode);
 
     switch (deptNo)
     {
@@ -37,7 +37,8 @@ int main()
         printf("Not a valid deptNumber");
     }
 
-    switch ( designationCode ) {
+    switch ( designationCode )
+    {
         case 'M':
             strcpy(designation, "'Manager'");
             break;
@@ -58,7 +59,7 @@ int main()
     if(designationCode)
     // Employee with Emp_ID 101 works in “Purchase” department as a “Manager”.
 
-    printf("%s %d %s %s %s %s","Employee with Emp_ID" , employeeID, "works in\"", deptName , "\" department as a \"", designation,"\"");
+    printf("Employee with Emp_ID %d works in %s department as a %s", employeeID, deptName, designation);
 
     return 0;
 }
