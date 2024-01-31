@@ -3,7 +3,7 @@
 
 int subtract(int a, int b)
 {
-    printf("Subtraction called\n");
+    // printf("Subtraction called\n");
 
     return a - b;
 }

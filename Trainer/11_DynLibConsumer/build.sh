@@ -5,4 +5,4 @@
 
 
 # Build the consumer in the Consumer project space
-gcc -Wall -Wextra -g -std=c99 client.c -o client.o -I ../10_DynLibrary/include/ -L ../10_DynLibrary/ -lmmath
+gcc -Wall -Wextra -g -std=c99 client.c -o client.out -I ../10_DynLibrary/include/ -L ../10_DynLibrary/ -lmmath
